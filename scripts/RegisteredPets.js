@@ -12,7 +12,6 @@ document.addEventListener("click", (clickEvent) => {
 	const allWalkers = getWalkers()
 	for (const walker of allWalkers) {
 		if (walker.id === parseInt(walkerId)) {
-			debugger
 			window.alert(`This pet is being walked by ${walker.name}`)
 		}
 	}
